@@ -1,7 +1,5 @@
 var React = require('react');
 
-console.log($('h2'));
-
 var About = (props) => {
     return (
         <div>
