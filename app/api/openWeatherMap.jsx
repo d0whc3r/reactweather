@@ -10,6 +10,7 @@ owm.getTemp = function (location) {
     var requestUrl = `${OWM_URL}&q=${encodedLocation}`;
 
     return axios.get(requestUrl).then(function (res) {
+        console.log(res);
         if (!res.data.list.length) {
             throw new Error(res.data.message);
         } else {
