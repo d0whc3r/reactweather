@@ -20,8 +20,8 @@ module.exports = {
         filename: './public/bundle.js'
     },
     resolveLoader: {
-        root: path.join(__dirname, 'node_modules')
-    }
+        root: require('path').join(__dirname, 'node_modules')
+    },
     resolve: {
         root: __dirname,
         alias: {
