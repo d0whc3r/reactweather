@@ -1,6 +1,6 @@
 node_modules
 .idea
 *.iml
-public/bundle.js
+#public/bundle.js
 npm-debug.log
 yarn.lock
